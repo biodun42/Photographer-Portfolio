@@ -171,6 +171,9 @@
     }
 }
 @media screen and (max-width: 336px) {
+    .portraits-txt h3{
+        font-size: 20px;
+    }
     .name-and-logo{
         display: flex;
         flex-direction: column;

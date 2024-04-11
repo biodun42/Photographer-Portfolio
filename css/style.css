@@ -169,7 +169,7 @@
   text-transform: uppercase;
   font-weight: 100;
   font-size: 16px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
 }
 .left-part-top h1 {
@@ -183,7 +183,7 @@
   color: #afb0b6;
   font-size: 16px;
   font-weight: 100;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
   padding-right: 12rem;
   line-height: 1.5;
@@ -204,7 +204,7 @@
   color: #afb0b6;
   font-size: 14px;
   font-weight: 100;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
@@ -225,7 +225,7 @@
   margin-top: 4rem;
   width: 100%;
   background-color: #1c1c21;
-  opacity: 0.2;
+  /* opacity: 0.2; */
   margin-bottom: 4rem;
 }
 .portraits {
@@ -296,7 +296,7 @@
   color: #cacace;
   font-size: 16px;
   font-weight: 100;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   font-family: "Monrope", sans-serif;
 }
 .text h4 {
@@ -385,7 +385,7 @@
   gap: 1rem;
   background-color: black;
   color: #afb0b6;
-  font-weight: lighter;
+  font-weight: 100;
   font-family: "Monrope", sans-serif;
   font-size: 18px;
   line-height: 1;
@@ -469,7 +469,7 @@ padding: 0 1rem 0 0;
   color: #62646c;
   font-size: 16px;
   font-weight: 100;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
 }
 .Total-review-left h4 {
@@ -497,7 +497,7 @@ padding: 0 1rem 0 0;
   margin-top: 4rem;
   width: 100%;
   background-color: #1c1c21;
-  opacity: 0.2;
+  /* opacity: 0.2; */
   margin-bottom: 2rem;
 }
 .All-card-about {
@@ -541,14 +541,14 @@ padding: 0 1rem 0 0;
   color: #e4e4e6;
   font-family: "Monrope", sans-serif;
   font-weight: 100;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 .name h3 {
   font-size: 16px;
   color: #62646c;
   font-family: "Monrope", sans-serif;
   font-weight: 100;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 .Logo1 {
   display: flex;
@@ -566,7 +566,7 @@ padding: 0 1rem 0 0;
   color: #e4e4e6;
   font-family: "Monrope", sans-serif;
   font-weight: 100;
-  opacity: 0.2;
+  /* opacity: 0.2; */
   padding: 0 2rem 0 0;
 }
 .Damien-logo {
