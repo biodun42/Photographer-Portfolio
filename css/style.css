@@ -167,23 +167,19 @@
 .left-part-top h5 {
   color: #afb0b6;
   text-transform: uppercase;
-  font-weight: 100;
   font-size: 16px;
-  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
 }
 .left-part-top h1 {
   text-transform: uppercase;
   color: white;
   font-size: 48px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
 }
 .left-part-top p {
   color: #afb0b6;
   font-size: 16px;
-  font-weight: 100;
-  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
   padding-right: 12rem;
   line-height: 1.5;
@@ -203,8 +199,6 @@
 .brands p {
   color: #afb0b6;
   font-size: 14px;
-  font-weight: 100;
-  /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
@@ -239,7 +233,7 @@
 .portraits-txt h3 {
   color: #797c86;
   font-size: 34px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
@@ -253,12 +247,8 @@
   border-radius: 35px;
   border: 1px solid #797c86;
 }
-.Arrow-front-and-back img:hover:nth-child(1) {
-  transform: rotate(360deg);
-  transition: ease-in-out 0.9s;
-}
-.Arrow-front-and-back img:hover:nth-child(2) {
-  transform: rotate(360deg);
+.Arrow-front-and-back:hover{
+  transform: scale(1.1);
   transition: ease-in-out 0.9s;
 }
 .cards {
@@ -295,14 +285,13 @@
 .text h5 {
   color: #cacace;
   font-size: 16px;
-  font-weight: 100;
-  /* opacity: 0.7; */
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
 }
 .text h4 {
   color: #797c86;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
 }
 .View-project {
@@ -328,7 +317,7 @@
   border-radius: 15px;
   color: #cacace;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
@@ -348,14 +337,13 @@
 .Frequently-asked h5 {
   color: #797c86;
   font-size: 16px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
 .Frequently-asked h1 {
   color: white;
   font-size: 48px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -385,7 +373,7 @@
   gap: 1rem;
   background-color: black;
   color: #afb0b6;
-  font-weight: 100;
+
   font-family: "Monrope", sans-serif;
   font-size: 18px;
   line-height: 1;
@@ -431,14 +419,13 @@ padding: 0 1rem 0 0;
 .Testimonials h5 {
   color: #797c86;
   font-size: 16px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
 .Testimonials h1 {
   color: white;
   font-size: 48px;
-  font-weight: 100;
+  font-weight: normal;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -468,14 +455,12 @@ padding: 0 1rem 0 0;
 .Total-review-left h5 {
   color: #62646c;
   font-size: 16px;
-  font-weight: 100;
   /* opacity: 0.6; */
   font-family: "Monrope", sans-serif;
 }
 .Total-review-left h4 {
   color: #cacace;
   font-size: 24px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
 }
 .View-all-testimonial {
@@ -540,14 +525,12 @@ padding: 0 1rem 0 0;
   font-size: 18px;
   color: #e4e4e6;
   font-family: "Monrope", sans-serif;
-  font-weight: 100;
   /* opacity: 0.8; */
 }
 .name h3 {
   font-size: 16px;
   color: #62646c;
   font-family: "Monrope", sans-serif;
-  font-weight: 100;
   /* opacity: 0.6; */
 }
 .Logo1 {
@@ -565,7 +548,6 @@ padding: 0 1rem 0 0;
   font-size: 18px;
   color: #e4e4e6;
   font-family: "Monrope", sans-serif;
-  font-weight: 100;
   /* opacity: 0.2; */
   padding: 0 2rem 0 0;
 }
@@ -605,14 +587,13 @@ padding: 0 1rem 0 0;
 .Work h4 {
   color: #797c86;
   font-size: 16px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
 .Work h1 {
   color: white;
+  font-weight: normal;
   font-size: 48px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
 }
@@ -643,7 +624,6 @@ padding: 0 1rem 0 0;
 .All-links h4 a {
   color: #797c86;
   font-size: 16px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -659,7 +639,6 @@ padding: 0 1rem 0 0;
 .All-links ul li a {
   color: #f2f2f3;
   font-size: 14px;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -684,12 +663,10 @@ padding: 0 1rem 0 0;
 .left-last-section h4 {
   font-size: 14px;
   color: #797c86;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
 }
 .right-last-section h4 {
   font-size: 14px;
   color: #797c86;
-  font-weight: 100;
   font-family: "Monrope", sans-serif;
 }
