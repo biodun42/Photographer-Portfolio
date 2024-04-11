@@ -1,0 +1,695 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+}
+.nav-bar {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+  
+}
+.links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.links ul li a {
+  text-decoration: none;
+  font-family: "Monrope", sans-serif;
+  border: 1px solid transparent;
+  font-size: 14px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: #afb0b6;
+}
+.links ul li a:hover {
+  color: white;
+  background-color: #4a4a4a;
+  transition: all 0.9s ease;
+}
+.Contact-button button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4a4a4a;
+}
+.Contact-button button a {
+  color: #afb0b6;
+  text-decoration: none;
+}
+.Contact-button button:hover {
+  scale: 1.1;
+  color: white;
+  transition: all 0.9s ease;
+}
+.hamburger-menu {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  cursor: pointer;
+  padding: 1rem;
+}
+.hambar {
+  width: 70%;
+  height: 5px;
+  background-color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.6s, opacity 0.8s, top 0.6s;
+  z-index: 2000;
+}
+.bar1 {
+  top: 25%;
+}
+.bar3 {
+  top: 75%;
+}
+.hamburger-menu.active .bar1 {
+  transform: translate(-50%, -50%) rotate(-315deg);
+  top: 50%;
+}
+.hamburger-menu.active .bar2 {
+  opacity: 0;
+}
+.hamburger-menu.active .bar3 {
+  transform: translate(-50%, -50%) rotate(-225deg);
+  top: 50%;
+}
+.off-screen-menu {
+  padding: 3rem;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  transition: right 0.9s;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.off-screen-menu.active {
+  background-color: black;
+  right: 0;
+}
+.Links2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 3rem;
+  list-style-type: none;
+}
+.Links2 li a {
+  color: #797c86;
+  font-size: 24px;
+  font-family: "Monrope", sans-serif;
+  text-decoration: none;
+}
+.Links2 li a:hover {
+  color: white;
+  transition: all 0.9s ease;
+}
+.Links2 button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4a4a4a;
+}
+.Links2 button a {
+  color: #afb0b6;
+  text-decoration: none;
+}
+.Links2 button:hover {
+  scale: 1.1;
+  color: white;
+  transition: all 0.9s ease;
+}
+.hamburger-menu {
+  display: none;
+}
+.second-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  padding: 2rem 3rem;
+}
+.left-part-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;  
+}
+.left-part-top h5 {
+  color: #afb0b6;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 16px;
+  opacity: 0.6;
+  font-family: "Monrope", sans-serif;
+}
+.left-part-top h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+}
+.left-part-top p {
+  color: #afb0b6;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.6;
+  font-family: "Monrope", sans-serif;
+  padding-right: 12rem;
+  line-height: 1.5;
+}
+.header-img img{
+  width: 100%;
+  height: 100%;
+}
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.brands p {
+  color: #afb0b6;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: 0.6;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.all-logos img {
+  flex-grow: 1;
+  width: 100%;
+}
+.third--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.third--wrapper hr {
+  margin-top: 4rem;
+  width: 100%;
+  background-color: #1c1c21;
+  opacity: 0.2;
+  margin-bottom: 4rem;
+}
+.portraits {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.portraits-txt h3 {
+  color: #797c86;
+  font-size: 34px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.Arrow-front-and-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.4rem;
+  border-radius: 35px;
+  border: 1px solid #797c86;
+}
+.Arrow-front-and-back img:hover:nth-child(1) {
+  transform: rotate(360deg);
+  transition: ease-in-out 0.9s;
+}
+.Arrow-front-and-back img:hover:nth-child(2) {
+  transform: rotate(360deg);
+  transition: ease-in-out 0.9s;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  flex-shrink: 1;
+}
+.About-card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
+}
+.text h5 {
+  color: #cacace;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.7;
+  font-family: "Monrope", sans-serif;
+}
+.text h4 {
+  color: #797c86;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+}
+.View-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  background-color: #4a4a4a;
+  width: 100%;
+  height: 2px;
+  opacity: 80%;
+}
+.View-project button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  color: #cacace;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.View-project button:hover {
+  cursor: pointer;
+}
+.Frequently-asked {
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+.Frequently-asked h5 {
+  color: #797c86;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.Frequently-asked h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.faq {
+  border: 1px solid #4a4a4a;
+  width: 100%;
+}
+.left-faq{
+  width: 100%;
+}
+.right-faq{
+  width: 100%;
+}
+.faq-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.accordion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: black;
+  color: #afb0b6;
+  font-weight: lighter;
+  font-family: "Monrope", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  width: 100%;
+  padding: 2rem 2rem;
+  border: none;
+  outline: none;
+  transition: 0.9s;
+  text-transform: uppercase;
+  text-align: left;
+}
+.active,
+.accordion:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.9s;
+}
+.faq-button {
+  transition: 0.9s;
+}
+.faq-button.active {
+  transform: rotate(180deg);
+  transition: all 0.9s;
+}
+.panel {
+  padding: 1rem;
+  background-color: black;
+  overflow: hidden;
+  display: none;
+}
+.panel p {
+padding: 0 1rem 0 0;
+  color: #797c86;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Monrope", sans-serif;
+  transition: all 0.9s ease;
+}
+.panel.active {
+  display: block;
+  transition: all 0.9s ease;
+}
+.Testimonials h5 {
+  color: #797c86;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.Testimonials h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+.fourth-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 2rem 3rem;
+  width: 100%;
+}
+.Total-review {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Total-review-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3px;
+}
+.Total-review-left h5 {
+  color: #62646c;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.6;
+  font-family: "Monrope", sans-serif;
+}
+.Total-review-left h4 {
+  color: #cacace;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+}
+.View-all-testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.button-view button {
+  background-color: #1c1c21;
+  padding: 1rem 1.5rem;
+  font-size: 14px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+.fourth-wrapper hr {
+  margin-top: 4rem;
+  width: 100%;
+  background-color: #1c1c21;
+  opacity: 0.2;
+  margin-bottom: 2rem;
+}
+.All-card-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+.card1 {
+  padding: 2rem 2rem;
+  background-image: url("../images/Card-Background.svg");
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  flex-grow: 1;
+}
+.name-and-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.name h4 {
+  font-size: 18px;
+  color: #e4e4e6;
+  font-family: "Monrope", sans-serif;
+  font-weight: 100;
+  opacity: 0.8;
+}
+.name h3 {
+  font-size: 16px;
+  color: #62646c;
+  font-family: "Monrope", sans-serif;
+  font-weight: 100;
+  opacity: 0.6;
+}
+.Logo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 0.5rem 0.6rem;
+  background-color: black;
+  border-radius: 30px;
+  border: 1px solid #4a4a4a;
+}
+.card1 p {
+  font-size: 18px;
+  color: #e4e4e6;
+  font-family: "Monrope", sans-serif;
+  font-weight: 100;
+  opacity: 0.2;
+  padding: 0 2rem 0 0;
+}
+.Damien-logo {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+.Damien-logo img:nth-child(2){
+  display: none;
+}
+.Below-Damien img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a7a3a3;
+  flex-grow: 1;
+}
+.Work {
+  border: 1px solid #a7a3a3;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  height: 100%;
+  padding: 4rem 4rem;
+}
+.Work h4 {
+  color: #797c86;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.Work h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+}
+.let {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+.Middle-footer {
+  border: 1px solid #a7a3a3;
+  padding: 7.3rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  width: 100%;
+}
+.All-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+.All-links h4 a {
+  color: #797c86;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.All-links ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  list-style-type: none;
+}
+.All-links ul li a {
+  color: #f2f2f3;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.All-links ul li a:hover {
+  color: #797c86;
+  transition: all 0.9s ease;
+  text-decoration: underline;
+}
+.right-footer {
+  border: 1px solid #a7a3a3;
+  padding: 7.4rem 0;
+}
+.last-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 4rem;
+}
+.left-last-section h4 {
+  font-size: 14px;
+  color: #797c86;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+}
+.right-last-section h4 {
+  font-size: 14px;
+  color: #797c86;
+  font-weight: 100;
+  font-family: "Monrope", sans-serif;
+}
