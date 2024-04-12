@@ -74,7 +74,7 @@
     }
     .Total-review{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 2rem;
     }
     .Total-review-left {
@@ -115,6 +115,9 @@
     .panel{
         font-size:14px;
     
+    }
+    .fourth-wrapper{
+        padding-top: 4rem;
     }
 }
 @media screen and (max-width: 556px){
@@ -169,6 +172,11 @@
     .card1{
         padding: 1rem;
     }
+    .button-view button{
+        font-size: 12px;
+        padding: 0.8rem 0.3rem;
+    
+    }
 }
 @media screen and (max-width: 336px) {
     .portraits-txt h3{
@@ -187,5 +195,8 @@
         justify-content: center;
         align-items: center;
         gap: 1rem;width: 100%;
+    }
+    .Total-review-left h5{
+        font-size: 12px;
     }
 }

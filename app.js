@@ -8,11 +8,20 @@ const body = document.querySelector(".container");
 
 for (let i = 0; i < faqButton.length; i++) {
   faqButton[i].addEventListener("click", function () {
+    // Check if the clicked panel is already active
+    const isActive = panel[i].classList.contains("active");
+    
+    // Remove active class from all panels and buttons
     for (let j = 0; j < panel.length; j++) {
       panel[j].classList.remove("active");
+      faqButton[j].classList.remove("active");
     }
-    faqButton[i].classList.toggle("active");
-    panel[i].classList.toggle("active");
+    
+    // If the clicked panel was not active, toggle its active class
+    if (!isActive) {
+      faqButton[i].classList.add("active");
+      panel[i].classList.add("active");
+    }
   });
 }
 

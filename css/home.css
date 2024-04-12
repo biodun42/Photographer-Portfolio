@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* This is the Home page of the Website */
+
+.second-wrapper-top {
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+  width: 100%;
+}
+.homepage-topleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.homepage-topleft h5 {
+  font-size: 18px;
+  color: #62646c;
+  text-transform: uppercase;
+  font-family: "Monrope", sans-serif;
+}
+.homepage-topleft h1 {
+  font-size: 60px;
+  color: #e4e4e6;
+  font-family: "Monrope", sans-serif;
+  font-weight: normal;
+}
+.middle-top-homepage img {
+  width: 100%;
+  height: 100%;
+}
+.top-right-homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.5rem;
+}
+.top-right-homepage-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.top-right-homepage h1 {
+  font-size: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Monrope", sans-serif;
+  font-weight: normal;
+}
+.top-right-homepage-texts img {
+  width: 70px;
+  height: 70px;
+}
+.Below-Top-Homepage {
+  overflow: hidden;
+}
+.Below-Top-Homepage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.HomePage-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+.HomePage-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.HomePage-pic img:nth-child(2){
+  display: none;
+}
+.About-Damien {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+.About-Damien-toppart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+.About-Damien-text {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+.About-Damien-toppart h5 {
+  font-size: 16px;
+  color: #797c86;
+  text-transform: uppercase;
+  font-family: "Monrope", sans-serif;
+}
+.About-Damien-text h2 {
+  font-size: 48px;
+  color: white;
+  font-family: "Monrope", sans-serif;
+  font-weight: normal;
+}
+.About-Damien-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.About-Damien-button button {
+  padding: 1rem 2rem;
+  background-color: #1c1c21;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Monrope", sans-serif;
+  cursor: pointer;
+}
+.About-Damien hr {
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #1c1c21;
+  opacity: 0.2;
+  margin-bottom: 3.5rem;
+}
+.Damien-pic-and-introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 7rem;
+}
+.pic-part {
+  flex-shrink: 1;
+  width: 100%;
+}
+.pic-part img {
+  width: 100%;
+  height: 100%;
+}
+.pic-part img:nth-child(2){
+  display: none;
+}
+.Introduction-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+.top-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  border: 1px solid #1c1c21;
+  border-radius: 1rem 1rem 0 0;
+}
+.intro-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.intro-text h3 {
+  font-size: 24px;
+  color: #cacace;
+  font-family: "Monrope", sans-serif;
+}
+.top-introduction p {
+  font-size: 16px;
+  color: #afb0b6;
+  font-family: "Monrope", sans-serif;
+}
+.below-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  padding: 2rem 1rem 2rem 1rem;
+  border: 1px solid #1c1c21;
+  border-radius: 0 0 1rem 1rem;
+  width: 100%;
+}
+.Contact-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+}
+.Email h3 {
+  font-size: 16px;
+  color: #e4e4e6;
+  font-family: "Monrope", sans-serif;
+}
+.Email h4 a {
+  color: #afb0b6;
+  font-family: "Monrope", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.Email h4 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.Phone-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+}
+.Phone-number h3 {
+  font-size: 16px;
+  color: #e4e4e6;
+  font-family: "Monrope", sans-serif;
+}
+.Phone-number h4 a {
+  color: #afb0b6;
+  font-family: "Monrope", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.Phone-number h4 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.app-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.The-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 0.5rem 0.6rem;
+  background-color: black;
+  border-radius: 30px;
+  border: 1px solid #4a4a4a;
+}
+.two-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+.two-buttons button {
+  padding: 1rem 2rem;
+  background-color: #1c1c21;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Monrope", sans-serif;
+  cursor: pointer;
+  flex-grow: 1;
+}
+.Services-part-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.Event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 8rem;
+}
+.Left-Event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.Top-Left-Event {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Top-Left-Event h1 {
+  font-size: 34px;
+  color: #797c86;
+  text-transform: uppercase;
+  font-family: "Monrope", sans-serif;
+  font-weight: normal;
+}
+.Top-Left-Event img {
+  width: 70px;
+  height: 70px;
+}
+.Left-Event p {
+  font-size: 16px;
+  color: #797c86;
+  font-family: "Monrope", sans-serif;
+  padding: 0 2rem 0 0;
+  margin-bottom: 1rem;
+}
+.Highlights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #1c1c21;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+.Highlights-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Highlights h3 {
+  font-size: 15px;
+  color: #afb0b6;
+  font-family: "Monrope", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 0 1rem 0 0;
+}
+.Right-Event {
+  width: 100%;
+  flex-shrink: 1;
+}
+.Right-Event img {
+  width: 100%;
+  height: 100%;
+}
+.Right-Event img:nth-child(2){
+  display: none;
+}
+.View-works {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* This is the Homepage responsive design */
+@media screen and (max-width: 1241px) {
+  .homepage-topleft h5 {
+    font-size: 17px;
+  }
+  .homepage-topleft h1 {
+    font-size: 40px;
+  }
+  .top-right-homepage h1 {
+    font-size: 35px;
+  }
+  .About-Damien-text h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .homepage-topleft h5 {
+    font-size: 14px;
+  }
+  .homepage-topleft h1 {
+    font-size: 35px;
+  }
+  .top-right-homepage h1 {
+    font-size: 30px;
+  }
+  .Damien-pic-and-introduction{
+    flex-wrap: wrap;
+  }
+
+  .Event{
+    flex-wrap: wrap;
+  }
+  .About-Damien-text{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 854px) {
+  .homepage-topleft h5 {
+    font-size: 13px;
+  }
+  .homepage-topleft h1 {
+    font-size: 30px;
+  }
+  .top-right-homepage h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 778px){
+  .About-Damien{
+    padding: 0 1rem;
+  }
+  .Introduction-part{
+    padding: 0;
+  }
+  .middle-top-homepage{
+    display: none;
+  }
+}
+@media screen and (max-width: 564px) {
+  .About-Damien{
+    padding: 0 0.5rem;
+  }
+  .Damien-pic-and-introduction{
+    width: 100%;
+  }
+  .HomePage-pic{
+    padding: 0;
+  }
+  .HomePage-pic img:nth-child(1){
+    display: none;
+  }
+  .HomePage-pic img:nth-child(2){
+    display: block;
+  }
+  .pic-part img:nth-child(1){
+    display: none;
+  }
+  .pic-part img:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .Right-Event img:nth-child(1){
+    display: none;
+  }
+  .Right-Event img:nth-child(2){
+    display: block;
+  }
+  .second-wrapper-top{
+    padding: 1rem 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .homepage-topleft h5 {
+    font-size: 15px;
+  }
+  .homepage-topleft h1 {
+    font-size: 40px;
+  }
+  .top-right-homepage h1 {
+    font-size: 29px;
+  }
+  .top-introduction{
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+  .below-introduction{
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+}
+@media screen and (max-width: 494px) {
+  .About-Damien-text h2{
+    font-size: 30px;
+  }
+  .Services-part-logos{
+    flex-wrap: wrap;
+  }
+  .app-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two-buttons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two-buttons button{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 335px) {
+  .intro-text h3{
+    font-size: 20px;
+  }
+  .Email h4 a{
+    font-size: 16px;
+  }
+  .Phone-number h4 a{
+    font-size: 16px;
+  }
+}
