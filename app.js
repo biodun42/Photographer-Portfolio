@@ -3,6 +3,7 @@ const panel = document.querySelectorAll(".panel");
 const faqButton = document.querySelectorAll(".faq-button");
 const back = document.querySelectorAll(".back");
 const front = document.querySelectorAll(".front");
+const body = document.querySelector(".container");
 
 
 for (let i = 0; i < faqButton.length; i++) {
@@ -33,6 +34,7 @@ const container = document.querySelector('.container')
 hamMenu.addEventListener('click', () =>{
   hamMenu.classList.toggle('active')
   offScreenMenu.classList.toggle('active')
+  container.classList.toggle('active')
 });
 
 const navs = document.querySelectorAll(".nav")

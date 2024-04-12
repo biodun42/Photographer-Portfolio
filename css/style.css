@@ -145,6 +145,10 @@
   color: white;
   transition: all 0.9s ease;
 }
+.container.active{
+  position: fixed;
+  background-color: black;
+}
 .hamburger-menu {
   display: none;
 }
