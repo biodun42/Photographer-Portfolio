@@ -98,8 +98,6 @@
   top: 50%;
 }
 .off-screen-menu {
-  margin-top: 4rem;
-  padding: 4rem;
   position: fixed;
   top: 0;
   background-color: black;
