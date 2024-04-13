@@ -332,6 +332,9 @@
     }
 }
 @media screen and (max-width: 520px) {
+    .second-wrapper-content h5{
+        font-size: 14px;
+    }
     .message-type p{
         width: 100%;
     }
