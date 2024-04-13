@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second-wrapper-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 8rem;
+}
+.contact-homepage-pic img{
+    width: 100%;
+    height: 100%;
+}
+.logoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 0.2rem 0.2rem;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid #4a4a4a;
+    margin-top: -6rem;
+}
+.logoss img:hover{
+    transition: 0.9s;
+    cursor: pointer;
+}
+.second-wrapper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 3rem;
+}
+.second-wrapper-content h5{
+    font-size: 16px;
+    color: #797C86;
+    text-transform: uppercase;
+    font-family: "Monrope", sans-serif;
+}
+.second-wrapper-content h1{
+    font-size: 48px;
+    color: white;
+    font-family: "Monrope", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.second-wrapper-content p{
+    font-size: 16px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    padding: 1rem 0;
+}
+.second-wrapper-content hr{
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #1c1c21;
+    opacity: 0.2;
+    margin-bottom: 4rem;
+}
+.third-contact-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 3rem;
+}
+.third-contact-page h1{
+    font-size: 34px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.third-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem 0;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.third-content p{
+    font-size: 16px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    width: 450px;
+}
+.reach-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start    ;
+    gap: 2rem;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 2px;
+}
+.login button{
+    border: none;
+    border-bottom: 1px solid #797C86;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 0; 
+    border-radius: 20px;
+}
+.login:hover{
+    background-color: #1c1c21;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+.login button a{
+    font-size: 16px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.login button img{
+    width: 20px;
+    height: 20px;
+}
+.third-contact-page hr{
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #1c1c21;
+    opacity: 0.2;
+    margin-bottom: 4rem;
+}
+.contact-me{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+}
+.message-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+
+}
+.message-type h1{
+    font-size: 34px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.message-type p{
+    font-size: 16px;
+    color: #797C86;
+    font-family: "Monrope", sans-serif;
+    width: 450px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+.top-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.Name p{
+    font-size: 16px;
+    color: #E4E4E6;
+    font-family: "Monrope", sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.Name input{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #62646C;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: "Monrope", sans-serif;
+
+}
+.Name input:focus{
+    outline: none;
+}
+.Name input::placeholder{
+    font-size: 14px;
+    color: #62646C;
+    font-family: "Monrope", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.lower-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.lower-input p{
+    font-size: 16px;
+    color: #E4E4E6;
+    font-family: "Monrope", sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.lower-input input{
+    width: 720px;
+    border: none;
+    border-bottom: 1px solid #62646C;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: "Monrope", sans-serif;
+}
+.lower-input input:focus{
+    outline: none;
+}
+.lower-input input::placeholder{
+    font-size: 14px;
+    color: #62646C;
+    font-family: "Monrope", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.send-message button{
+    border: none;
+    border-bottom: 1px solid #62646C;
+    background-color: black;
+    padding: 0.5rem 0.5rem 0.5rem 0; 
+}
+.send-message button a{
+    font-size: 38px;
+    color: white;
+    font-family: "Monrope", sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Responsive for contact page */
+@media screen and (max-width: 910px) {
+    .logoss{
+        margin-top: -4rem;
+    }
+    .Name input{
+        width: 300px;
+    }
+    .lower-input input{
+        width: 620px;
+    }
+}
+@media screen and (max-width: 872px) {
+    .second-wrapper-contact{
+        padding: 0 1rem;
+    }
+    .second-wrapper-content{
+        padding: 0 1rem;    
+    }
+    .third-contact-page{
+        padding: 0 1rem;
+    }
+    .contact-me{
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width: 672px) {  
+    .second-wrapper-contact{
+        padding: 0 1rem;
+    }
+    .second-wrapper-content h1{
+        font-size: 36px;
+    }
+    .reach-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 2rem;
+    }
+    .logoss{
+        margin-top: -3rem;
+    }
+    .Name input{
+        width: 250px;
+    }
+    .lower-input input{
+        width: 515px;
+    }
+    .send-message button a{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .message-type p{
+        width: 100%;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1rem;
+    }
+    .top-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .Name{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    
+    }
+    .Name input{
+        width: 100%;
+    }
+    .lower-input input{
+        width: 100%;
+    }
+    .send-message button a{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 455px){
+    .logoss{
+        margin-top: -2rem;
+        gap: 3px;
+    }
+    .logoss img{
+        width: 40px;
+        height: 40px;
+    }
+    .second-wrapper-content h1{
+        font-size: 28px;
+    }
+    .third-contact-page h1{
+        font-size: 28px;
+    }
+    .message-type h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 368px){
+    .second-wrapper-content h1{
+        font-size: 24px;
+    }
+    .third-contact-page h1{
+        font-size: 24px;
+    }
+    .message-type h1{
+        font-size: 24px;
+    }
+    .Name input{
+        width: 100%;
+    }
+    .lower-input input{
+        width: 100%;
+    }
+    .send-message button{
+        padding: 0.5rem 0.5rem 0 0;
+    }
+       .send-message button a{
+        font-size: 18px;
+    }
+    .send-message button img{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 314px){
+    .second-wrapper-content h1{
+        font-size: 20px;
+    }
+    .third-contact-page h1{
+        font-size: 20px;
+    }
+    .message-type h1{
+        font-size: 20px;
+    }
+    .Name input{
+        width: 100%;
+    }
+    .lower-input input{
+        width: 100%;
+    }
+    .send-message button a{
+        font-size: 17px;
+    }
+}
