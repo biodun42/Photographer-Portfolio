@@ -109,6 +109,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   gap: 1rem;
 }
@@ -523,9 +524,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .two-buttons button{
     width: 100%;
+    flex-grow: 1;
   }
 }
 @media screen and (max-width: 335px) {
