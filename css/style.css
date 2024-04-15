@@ -634,6 +634,11 @@ padding: 0 1rem 0 0;
   text-transform: uppercase;
   text-decoration: none;
 }
+.All-links h4 a:hover {
+  color: #797c86;
+  transition: all 0.9s ease;
+  text-decoration: underline;
+}
 .All-links ul {
   display: flex;
   flex-direction: column;
@@ -648,11 +653,6 @@ padding: 0 1rem 0 0;
   font-family: "Monrope", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-}
-.All-links ul li a:hover {
-  color: #797c86;
-  transition: all 0.9s ease;
-  text-decoration: underline;
 }
 .right-footer {
   border: 1px solid #a7a3a3;
