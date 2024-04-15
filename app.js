@@ -4,7 +4,6 @@ const faqButton = document.querySelectorAll(".faq-button");
 const back = document.querySelectorAll(".back");
 const front = document.querySelectorAll(".front");
 const body = document.querySelector(".container");
-const loader = document.querySelector(".preloader");
 
 
 for (let i = 0; i < faqButton.length; i++) {
@@ -55,6 +54,3 @@ navs.forEach((nav)=>{
   })
 })
 
-window.onload = function(){
-  loader.style.display = 'none'
-}
