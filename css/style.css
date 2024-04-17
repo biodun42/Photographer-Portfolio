@@ -41,7 +41,7 @@
   text-decoration: none;
   font-family: "Monrope", sans-serif;
   border: 1px solid transparent;
-  font-size: 14px;
+  font-size: 17px;
   padding: 1rem 2rem;
   border-radius: 10px;
   color: #afb0b6;
@@ -60,6 +60,8 @@
 .Contact-button button a {
   color: #afb0b6;
   text-decoration: none;
+  font-family: "Monrope", sans-serif;
+  font-size: 16px;
 }
 .hamburger-menu {
   height: 50px;
@@ -370,7 +372,7 @@
 }
 .accordion {
   display: flex;
-  flex-direction: row;
+  flex-direction: z;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;

@@ -1,4 +1,7 @@
 @media screen and (max-width: 965px) {
+    .Frequently-asked{
+        padding: 0 1rem;
+    }
     .footer{
         display: flex;
         flex-direction: column;
@@ -42,6 +45,15 @@
     .portraits-txt h3{
         font-size: 23px;
     }
+    .links ul{
+        display: none;
+    }
+    .Contact-button{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
 }
 @media screen and (max-width: 810px) {
     .nav-bar{
@@ -53,15 +65,6 @@
     .left-part-top p{
         font-size: 15px;
         padding: 0 0;
-    }
-    .links ul{
-        display: none;
-    }
-    .Contact-button{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
     }
     .Frequently-asked h1{
         font-size: 35px;
@@ -88,9 +91,6 @@
     }
 }
 @media screen and (max-width: 573px) {
-    .Frequently-asked{
-        padding: 0 0;
-    }
     .second-wrapper{
         display: flex;
         flex-direction: column-reverse;

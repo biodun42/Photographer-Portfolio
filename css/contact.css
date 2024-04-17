@@ -156,6 +156,7 @@
     gap: 3rem;
     padding: 0 3rem;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 .message-type{
     display: flex;
@@ -241,7 +242,7 @@
     margin-bottom: 5px;
 }
 .lower-input input{
-    width: 720px;
+    width: 820px;
     border: none;
     border-bottom: 1px solid #62646C;
     background-color: black;
