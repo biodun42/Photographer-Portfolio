@@ -133,12 +133,15 @@
 .About-Damien-button button {
   padding: 1rem 2rem;
   background-color: #1c1c21;
-  color: white;
   border: none;
   border-radius: 10px;
-  font-size: 14px;
-  font-family: "Monrope", sans-serif;
   cursor: pointer;
+}
+.About-Damien-button button a{
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: "Monrope", sans-serif;
 }
 .About-Damien hr {
   margin-top: 2rem;
@@ -443,6 +446,9 @@
   }
 }
 @media screen and (max-width: 778px){
+  .Arrow-front-and-back{
+    display: none;
+  }
   .About-Damien{
     padding: 0 1rem;
   }
